@@ -2,7 +2,7 @@
 
 A single page for quickly trying out new ideas.
 
-# Running
+## Running
 
 To start, run:
 
@@ -10,9 +10,9 @@ To start, run:
 rackup
 ```
 
-Then navigate to http://localhost:9292
+Then navigate to http://localhost:9292/
 
-# What's Included
+## What's Included
 
 - haml
 - sass
