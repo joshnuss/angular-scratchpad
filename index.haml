@@ -11,9 +11,13 @@
     :coffeescript
       app = angular.module('app', [])
 
-  %body{ng: {app: 'app'}}
-    %p
-      %label Your Name:
-      %input{ng: {model: 'name'}}
+      app.controller 'SampleController', ($scope) ->
+        $scope.name = 'World'
 
-    %p Hello {{name}}!
+  %body{ng: {app: 'app'}}
+    #example{ng: {controller: 'SampleController'}}
+      %p
+        %label Name:
+        %input{ng: {model: 'name'}}
+
+      %p Hello {{name}}!
