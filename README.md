@@ -1,11 +1,11 @@
 # Angular Scratchpad
 
-A single page for quickly trying out new ideas. 
+A single page for quickly trying out new ideas.
 
 # Running
 
 To start, run:
-  
+
 ```
 rackup
 ```
