@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title Angular Scratchpad
+    %script{src: "//ajax.googleapis.com/ajax/libs/angularjs/1.1.4/angular.min.js"}
+
+    :sass
+      body
+        background: #f1f1f1
+
+    :coffeescript
+      app = angular.module('app', [])
+
+  %body{ng: {app: 'app'}}
+    %p
+      %label Your Name:
+      %input{ng: {model: 'name'}}
+
+    %p Hello {{name}}!
