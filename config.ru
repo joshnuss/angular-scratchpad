@@ -1,6 +1,8 @@
 # CREDIT: https://gist.github.com/stas/3344092
 require 'bundler/setup'
 require 'haml'
+require 'sass'
+require 'coffee_script'
 
 # Do not buffer output
 $stdout.sync = true
