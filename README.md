@@ -7,7 +7,7 @@ A single page for quickly trying out new ideas.
 To start, run:
 
 ```
-rackup
+tiltd
 ```
 
 Then navigate to http://localhost:9292/

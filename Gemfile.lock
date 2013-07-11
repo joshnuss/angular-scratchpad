@@ -12,6 +12,9 @@ GEM
     rack (1.5.2)
     sass (3.2.9)
     tilt (1.4.1)
+    tiltd (0.0.5)
+      rack
+      tilt
 
 PLATFORMS
   ruby
@@ -19,5 +22,5 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   haml
-  rack
   sass
+  tiltd
